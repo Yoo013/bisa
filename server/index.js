@@ -22,7 +22,7 @@ app.use('/auth', UserRouter)
 
 
 
-mongoose.connect('mongodb://127.0.0.1:27017/authentication')
+mongoose.connect('mongodb+srv://mern-kelas:qiKzrSG9H0tXFRbn@mern-kelas.eiukouu.mongodb.net/?retryWrites=true&w=majority&appName=mern-kelas')
 
 
 app.listen(process.env.PORT, () => {
